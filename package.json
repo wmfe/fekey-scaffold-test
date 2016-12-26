@@ -1,0 +1,33 @@
+{
+    "name": "fekey-scaffold-test",
+    "version": "1.0.0",
+    "description": "fekey 2.0",
+    "main": "index.js",
+    "bin": {
+      "newfekey": "bin/fekey.js"
+    },
+    "dependencies": {
+        "fis3": "^3.4.26",
+        "liftoff": "^2.2.1",
+        "minimist": "^1.2.0",
+        "bluebird": "2.9.21",
+        "fis-scaffold-kernel": "~0.2.0",
+        "findup": "0.1.5"
+    },
+
+    "devDependencies": {
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wmfe/fekey.git"
+    },
+    "keywords": [
+      "fekey"
+    ],
+    "author": "wmfe",
+    "license": "BSD",
+    "bugs": {
+      "url": "https://github.com/wmfe/fekey/issues"
+    },
+    "homepage": "https://github.com/wmfe/fekey"
+}
